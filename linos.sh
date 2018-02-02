@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get update
-wget http://downloads.kano.me/public/Kanux-Beta-latest-jessie-release.img.zip
-unzip Kanux-Beta-latest-jessie-release.img.zip
+sudo apt-get update
+sudo wget http://downloads.kano.me/public/Kanux-Beta-latest-jessie-release.img.zip
+sudo unzip Kanux-Beta-latest-jessie-release.img.zip
 sudo reboot
